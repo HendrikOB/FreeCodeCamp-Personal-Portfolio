@@ -21,7 +21,7 @@ body{
 	position: fixed;
 	text-align: right;
 	width: 100%;
-	background-color: #E0EBE8;
+	background-color: black;
 	padding: 0;
 	margin: 0;
 	height: 60px;
@@ -31,22 +31,23 @@ body{
 
 #navbar ul li{
 	display: inline-block;
-	color: #008080;
+	color: #17e7e7;
 	margin: 22px 55px 15px 55px;
 }
 
 #welcome-section{
-	background-color: #E0EBE8;
+	background-color: rgb(3, 2, 49);
 	padding-top: 45vh;
 	min-height: 55vh;
 }
 
 #welcome-section h1 {
 	margin: 0;
+	color: white;
 }
 
 #welcome-section p {
-	color: green;
+	color: #17e7e7;
 	margin: 0;
 }
 
@@ -89,14 +90,15 @@ body{
 	width: 200px;
 	height: 30px;
 	margin: 20px auto 90px;
-	background: #e0ebe8;
-	color: #008080;
+	background-color: #0c9b5f;
+	color: white;
 	padding-top: 10px;
 }
 
 #contact {
-	background: #C8F7C5;
+	background: #1b4dd6;
 	padding-bottom: 160px;
+	color: white;
 }
 
 #contact div {
@@ -105,20 +107,19 @@ body{
 
 #contact a {
 	text-decoration: none;
-	color: #008080;
+	color: white;
 	width: 100px !important;
 	height: 100px !important;
 	margin: 0 35px 0 35px;
-	background: #e0ebe8;
+	background-color: rgb(238, 130, 8);
 	line-height: 100px;
 	border-radius: 100%;
 	display: inline-block;
-	border: 2px solid #90C695;
 }
 
 footer{
 	line-height: 30px;
-	background-color: #22313F;
+	background-color: black;
 	color: white;
 	padding: 20px;
 }
